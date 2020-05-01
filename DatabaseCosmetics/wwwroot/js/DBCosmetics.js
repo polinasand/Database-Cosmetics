@@ -1,4 +1,4 @@
-﻿const uri = 'api/Collection';
+﻿const uri = 'api/Collections';
 let collections = [];
 
 function getCollections() {
@@ -43,7 +43,7 @@ function deleteCollection(id) {
 }
 
 function displayEditForm(id) {
-    const collection = collections.find(c => c.id === id);
+    const collection = collections.find(collection => collection.id === id);
 
     document.getElementById('edit-id').value = collection.id;
     document.getElementById('edit-name').value = collection.name;
@@ -52,14 +52,14 @@ function displayEditForm(id) {
 }
 
 function updateCollection() {
-    const cId = document.getElementById('edit-id').value;
+    const collectionId = document.getElementById('edit-id').value;
     const collection = {
-        id: parseInt(cId, 10),
+        id: parseInt(collectionId, 10),
         name: document.getElementById('edit-name').value.trim(),
         info: document.getElementById('edit-info').value.trim()
     };
 
-    fetch(`${uri}/${cId}`, {
+    fetch(`${uri}/${collectionId}`, {
         method: 'PUT',
         headers: {
             'Accept': 'application/json',

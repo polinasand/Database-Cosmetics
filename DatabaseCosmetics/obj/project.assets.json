@@ -349,11 +349,11 @@
           "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/5.0.0-preview.2.20159.4": {
+      "Microsoft.EntityFrameworkCore/5.0.0-preview.3.20181.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.0-preview.2.20159.4",
-          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.0-preview.2.20159.4",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.0-preview.3.20181.2",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.0-preview.3.20181.2",
           "Microsoft.Extensions.Caching.Memory": "3.1.2",
           "Microsoft.Extensions.DependencyInjection": "3.1.2",
           "Microsoft.Extensions.Logging": "3.1.2",
@@ -368,7 +368,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/5.0.0-preview.2.20159.4": {
+      "Microsoft.EntityFrameworkCore.Abstractions/5.0.0-preview.3.20181.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -377,7 +377,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/5.0.0-preview.2.20159.4": {
+      "Microsoft.EntityFrameworkCore.Analyzers/5.0.0-preview.3.20181.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -402,10 +402,10 @@
           "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/5.0.0-preview.2.20159.4": {
+      "Microsoft.EntityFrameworkCore.Relational/5.0.0-preview.3.20181.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.0-preview.2.20159.4"
+          "Microsoft.EntityFrameworkCore": "5.0.0-preview.3.20181.2"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -442,11 +442,11 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/5.0.0-preview.2.20159.4": {
+      "Microsoft.EntityFrameworkCore.SqlServer/5.0.0-preview.3.20181.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.0-preview1.20021.1",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.0-preview.2.20159.4"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.0-preview.3.20181.2"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -691,7 +691,7 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
-      "Microsoft.NETCore.Platforms/5.0.0-preview.2.20160.6": {
+      "Microsoft.NETCore.Platforms/5.0.0-preview.3.20214.6": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -849,10 +849,10 @@
           }
         }
       },
-      "Microsoft.Win32.SystemEvents/5.0.0-preview.2.20160.6": {
+      "Microsoft.Win32.SystemEvents/5.0.0-preview.3.20214.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0-preview.2.20160.6"
+          "Microsoft.NETCore.Platforms": "5.0.0-preview.3.20214.6"
         },
         "compile": {
           "ref/netstandard2.0/_._": {}
@@ -1521,11 +1521,11 @@
           "lib/netstandard1.0/System.Composition.TypedParts.dll": {}
         }
       },
-      "System.Configuration.ConfigurationManager/5.0.0-preview.2.20160.6": {
+      "System.Configuration.ConfigurationManager/5.0.0-preview.3.20214.6": {
         "type": "package",
         "dependencies": {
-          "System.Security.Cryptography.ProtectedData": "5.0.0-preview.2.20160.6",
-          "System.Security.Permissions": "5.0.0-preview.2.20160.6"
+          "System.Security.Cryptography.ProtectedData": "5.0.0-preview.3.20214.6",
+          "System.Security.Permissions": "5.0.0-preview.3.20214.6"
         },
         "compile": {
           "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
@@ -1589,11 +1589,11 @@
           "ref/netstandard1.5/System.Diagnostics.Tracing.dll": {}
         }
       },
-      "System.Drawing.Common/5.0.0-preview.2.20160.6": {
+      "System.Drawing.Common/5.0.0-preview.3.20214.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0-preview.2.20160.6",
-          "Microsoft.Win32.SystemEvents": "5.0.0-preview.2.20160.6"
+          "Microsoft.NETCore.Platforms": "5.0.0-preview.3.20214.6",
+          "Microsoft.Win32.SystemEvents": "5.0.0-preview.3.20214.6"
         },
         "compile": {
           "ref/netcoreapp3.0/_._": {}
@@ -2254,11 +2254,11 @@
           "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
         }
       },
-      "System.Security.AccessControl/5.0.0-preview.2.20160.6": {
+      "System.Security.AccessControl/5.0.0-preview.3.20214.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0-preview.2.20160.6",
-          "System.Security.Principal.Windows": "5.0.0-preview.2.20160.6"
+          "Microsoft.NETCore.Platforms": "5.0.0-preview.3.20214.6",
+          "System.Security.Principal.Windows": "5.0.0-preview.3.20214.6"
         },
         "compile": {
           "ref/netstandard2.0/System.Security.AccessControl.dll": {}
@@ -2433,7 +2433,7 @@
           "lib/netstandard1.3/System.Security.Cryptography.Primitives.dll": {}
         }
       },
-      "System.Security.Cryptography.ProtectedData/5.0.0-preview.2.20160.6": {
+      "System.Security.Cryptography.ProtectedData/5.0.0-preview.3.20214.6": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/_._": {}
@@ -2491,11 +2491,11 @@
           }
         }
       },
-      "System.Security.Permissions/5.0.0-preview.2.20160.6": {
+      "System.Security.Permissions/5.0.0-preview.3.20214.6": {
         "type": "package",
         "dependencies": {
-          "System.Security.AccessControl": "5.0.0-preview.2.20160.6",
-          "System.Windows.Extensions": "5.0.0-preview.2.20160.6"
+          "System.Security.AccessControl": "5.0.0-preview.3.20214.6",
+          "System.Windows.Extensions": "5.0.0-preview.3.20214.6"
         },
         "compile": {
           "ref/netcoreapp3.0/System.Security.Permissions.dll": {}
@@ -2504,7 +2504,7 @@
           "lib/netcoreapp3.0/System.Security.Permissions.dll": {}
         }
       },
-      "System.Security.Principal.Windows/5.0.0-preview.2.20160.6": {
+      "System.Security.Principal.Windows/5.0.0-preview.3.20214.6": {
         "type": "package",
         "compile": {
           "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {}
@@ -2665,10 +2665,10 @@
           "ref/netstandard1.2/System.Threading.Timer.dll": {}
         }
       },
-      "System.Windows.Extensions/5.0.0-preview.2.20160.6": {
+      "System.Windows.Extensions/5.0.0-preview.3.20214.6": {
         "type": "package",
         "dependencies": {
-          "System.Drawing.Common": "5.0.0-preview.2.20160.6"
+          "System.Drawing.Common": "5.0.0-preview.3.20214.6"
         },
         "compile": {
           "ref/netcoreapp3.0/System.Windows.Extensions.dll": {}
@@ -3186,45 +3186,45 @@
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/5.0.0-preview.2.20159.4": {
-      "sha512": "a/aOfx07IQ9z9J5XQbbwFX1ILTmpgR51dLY4HSHV/dDm5bzGvezzTBBeS8TqyipJ/YQ6GxIMI7JkRk5PggyWNg==",
+    "Microsoft.EntityFrameworkCore/5.0.0-preview.3.20181.2": {
+      "sha512": "hH30ALH3kIZpX8mC8qdiiOeYPIpm8v3THzynP85ActLYHGubBhnikx1EJ9G5XPsmVgTRJJ3Kqj99mLTTeMfJ/w==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/5.0.0-preview.2.20159.4",
+      "path": "microsoft.entityframeworkcore/5.0.0-preview.3.20181.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.5.0.0-preview.2.20159.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.5.0.0-preview.3.20181.2.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/5.0.0-preview.2.20159.4": {
-      "sha512": "GJU20amgwyZBtssN1Nu8F4xXIF06yFUB8U7OupHw7UBDNSKfnezLP+SvptAF5vzn35cba9lzDiNlwdt3ZIy+nA==",
+    "Microsoft.EntityFrameworkCore.Abstractions/5.0.0-preview.3.20181.2": {
+      "sha512": "vpLU+BeQnH6sV8SH1UKEH/rjF2iBXWj1p9+Jj3wvCPi1Ru18BIj6rhAhfupMMpfxklin4U1n4eK4gb/4lSoRQA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/5.0.0-preview.2.20159.4",
+      "path": "microsoft.entityframeworkcore.abstractions/5.0.0-preview.3.20181.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.5.0.0-preview.2.20159.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.5.0.0-preview.3.20181.2.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/5.0.0-preview.2.20159.4": {
-      "sha512": "VCTxongSqje8GKxZP3uX7OmdnOqulypzE9lkXCp9fo6sHB3+WF9zi7DR5GEsY3HuzREcPh3QEQQXt9zKEv6uqw==",
+    "Microsoft.EntityFrameworkCore.Analyzers/5.0.0-preview.3.20181.2": {
+      "sha512": "H0CPrbxB3+UW3YpNjioXypc8WiTa4jja1c/XkUmOcxVXOpalRqnxCWq/H0KmuCrVO5HCqc0mjGuy0ZmHX7W68w==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/5.0.0-preview.2.20159.4",
+      "path": "microsoft.entityframeworkcore.analyzers/5.0.0-preview.3.20181.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.5.0.0-preview.2.20159.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.5.0.0-preview.3.20181.2.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -3244,17 +3244,17 @@
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/5.0.0-preview.2.20159.4": {
-      "sha512": "Ba1r0eG/YK3O4RgD6I3cpEWWPevE2ttDRx1BApN5pG7kIUG7a5nxP0FqtRxwLK00hdTVyAdK2TQw0NsybJ2Rwg==",
+    "Microsoft.EntityFrameworkCore.Relational/5.0.0-preview.3.20181.2": {
+      "sha512": "7mZtniL39acpFNOByce4Idqa+GZ4XAVk7esP0W32BI8O4+a5virzg1up1956G1h+2YQNNY8lDuHQVKskSAlgKw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/5.0.0-preview.2.20159.4",
+      "path": "microsoft.entityframeworkcore.relational/5.0.0-preview.3.20181.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.5.0.0-preview.2.20159.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.5.0.0-preview.3.20181.2.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
@@ -3285,17 +3285,17 @@
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/5.0.0-preview.2.20159.4": {
-      "sha512": "W/4JbJLhzO4oL+GQEY0y2JR+sYfXZxQPUiq1LO6Fc1+6hl04qZHc6nSCtxhCdS6C4HPa+QXtAo8hSwwTXzKGyw==",
+    "Microsoft.EntityFrameworkCore.SqlServer/5.0.0-preview.3.20181.2": {
+      "sha512": "dp/FnL1jjuhuUnwz+hyGdAF4AaA7ILQpxA9rCU5+6bfF6+UQ/PyZt0JEpLX8Vjuum1SO0nH9nN1Lq5ddw4NjiQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/5.0.0-preview.2.20159.4",
+      "path": "microsoft.entityframeworkcore.sqlserver/5.0.0-preview.3.20181.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.5.0.0-preview.2.20159.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.5.0.0-preview.3.20181.2.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -3666,10 +3666,10 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.NETCore.Platforms/5.0.0-preview.2.20160.6": {
-      "sha512": "S6k9S3afzVzH987kuSwRJPa+5HN1gvBoeUdrNFPFfjUypMUE3NRFod8Gz+cTW5MXWPTgtibnk7nVYOSX3Om6KA==",
+    "Microsoft.NETCore.Platforms/5.0.0-preview.3.20214.6": {
+      "sha512": "PTiREWEeGOvw5PpZMHCNpGUAiD604Kq+lI0+78+2ce5Qdfvmd++CzUGfBGdSsMffpmXwJQjknDfkTtQ0dbyD1Q==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/5.0.0-preview.2.20160.6",
+      "path": "microsoft.netcore.platforms/5.0.0-preview.3.20214.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3677,7 +3677,7 @@
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.5.0.0-preview.2.20160.6.nupkg.sha512",
+        "microsoft.netcore.platforms.5.0.0-preview.3.20214.6.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
@@ -4185,10 +4185,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.Win32.SystemEvents/5.0.0-preview.2.20160.6": {
-      "sha512": "ak+4cRwWo8j+3iaLKdXoR7dXUyVV0HFB9Ln3Ax+BdwhqmCvc/FoxWQwMzdTQGUBy/i/bdDrw6h5l9J6Nv8t0Pg==",
+    "Microsoft.Win32.SystemEvents/5.0.0-preview.3.20214.6": {
+      "sha512": "09skfaFYo712NRXuNBk+6O9KU0fIRBbm/Z7hBZ8GdSQ3hDAEkaQUV6OxqaszR5xi5twi8h9v1yTiA2YZk9fMJA==",
       "type": "package",
-      "path": "microsoft.win32.systemevents/5.0.0-preview.2.20160.6",
+      "path": "microsoft.win32.systemevents/5.0.0-preview.3.20214.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4199,7 +4199,7 @@
         "lib/net461/Microsoft.Win32.SystemEvents.xml",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "microsoft.win32.systemevents.5.0.0-preview.2.20160.6.nupkg.sha512",
+        "microsoft.win32.systemevents.5.0.0-preview.3.20214.6.nupkg.sha512",
         "microsoft.win32.systemevents.nuspec",
         "ref/net461/Microsoft.Win32.SystemEvents.dll",
         "ref/net461/Microsoft.Win32.SystemEvents.xml",
@@ -5269,10 +5269,10 @@
         "system.composition.typedparts.nuspec"
       ]
     },
-    "System.Configuration.ConfigurationManager/5.0.0-preview.2.20160.6": {
-      "sha512": "AC3L4mojb9HRcqJ5rqqUylLz2x4TUKJ4uCQebA3d6jmK7Xnzoa66y3zIAV5p4H/8iM3aMldJ8+HgFzuoxXqMKQ==",
+    "System.Configuration.ConfigurationManager/5.0.0-preview.3.20214.6": {
+      "sha512": "jQKTU4R80vC8Hvg9mGdG0efMbcxlvfEh3wxwdD+yutuwemXnZEbZqdu8k8Pz7/fjA9cZu+1VhNU8LM8RUpa/MQ==",
       "type": "package",
-      "path": "system.configuration.configurationmanager/5.0.0-preview.2.20160.6",
+      "path": "system.configuration.configurationmanager/5.0.0-preview.3.20214.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5287,7 +5287,7 @@
         "ref/net461/System.Configuration.ConfigurationManager.xml",
         "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
         "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
-        "system.configuration.configurationmanager.5.0.0-preview.2.20160.6.nupkg.sha512",
+        "system.configuration.configurationmanager.5.0.0-preview.3.20214.6.nupkg.sha512",
         "system.configuration.configurationmanager.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -5571,10 +5571,10 @@
         "system.diagnostics.tracing.nuspec"
       ]
     },
-    "System.Drawing.Common/5.0.0-preview.2.20160.6": {
-      "sha512": "Q7jh7RzlsHX2CjcF2yYmd/j5zeDgeGk4mOlifEsu7UW9Vwklf5JuNcVSNi2g2+4viPI1Q3p4JpIsB0bsYNKcOg==",
+    "System.Drawing.Common/5.0.0-preview.3.20214.6": {
+      "sha512": "p2wvPaDNyPA3WzIM7Td1cYnYPhZNCOR8ene/sJD+hVu7pG+N+J6bxPRzt506mpTvxgIc7qnWUYuznviWkO2iFQ==",
       "type": "package",
-      "path": "system.drawing.common/5.0.0-preview.2.20160.6",
+      "path": "system.drawing.common/5.0.0-preview.3.20214.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5605,7 +5605,7 @@
         "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
         "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
         "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "system.drawing.common.5.0.0-preview.2.20160.6.nupkg.sha512",
+        "system.drawing.common.5.0.0-preview.3.20214.6.nupkg.sha512",
         "system.drawing.common.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -7620,10 +7620,10 @@
         "system.runtime.serialization.primitives.nuspec"
       ]
     },
-    "System.Security.AccessControl/5.0.0-preview.2.20160.6": {
-      "sha512": "Uli7CKlppBydO5b7R+gVYjpmAuszE5G8D/6Ow2FFbed3m9ZBe0wnKBrK4+GtQy372p3OL2fih68FPLBhLxVbSQ==",
+    "System.Security.AccessControl/5.0.0-preview.3.20214.6": {
+      "sha512": "QfskjI++Q59VTB/Cv0UjLQd0RNVZNfVh2RhWiIFfDKCHtfqhlEZoBLm+wVAUxTfpleQm4sf15TmiENzHUf9WvQ==",
       "type": "package",
-      "path": "system.security.accesscontrol/5.0.0-preview.2.20160.6",
+      "path": "system.security.accesscontrol/5.0.0-preview.3.20214.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7661,7 +7661,7 @@
         "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.xml",
         "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
         "runtimes/win/lib/uap10.0.16299/_._",
-        "system.security.accesscontrol.5.0.0-preview.2.20160.6.nupkg.sha512",
+        "system.security.accesscontrol.5.0.0-preview.3.20214.6.nupkg.sha512",
         "system.security.accesscontrol.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -7889,10 +7889,10 @@
         "system.security.cryptography.primitives.nuspec"
       ]
     },
-    "System.Security.Cryptography.ProtectedData/5.0.0-preview.2.20160.6": {
-      "sha512": "xNSB74T+00h/EPuAvp0F9JeZtHyKpygsKs6Vvl3x5XW9FHIAHitif5OaxuNomkQKIf0Zq0SzaH21PCZkKCnYzQ==",
+    "System.Security.Cryptography.ProtectedData/5.0.0-preview.3.20214.6": {
+      "sha512": "81pV7txwZ277uXGbhAwNTlAO0Gi9t2i6/LVNyhWidodz2dTOFPDbH8K2FFxnk94aXer+ZYQsIAIJSFpgq0Wx6A==",
       "type": "package",
-      "path": "system.security.cryptography.protecteddata/5.0.0-preview.2.20160.6",
+      "path": "system.security.cryptography.protecteddata/5.0.0-preview.3.20214.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7929,7 +7929,7 @@
         "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
         "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
         "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
-        "system.security.cryptography.protecteddata.5.0.0-preview.2.20160.6.nupkg.sha512",
+        "system.security.cryptography.protecteddata.5.0.0-preview.3.20214.6.nupkg.sha512",
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -7991,10 +7991,10 @@
         "system.security.cryptography.x509certificates.nuspec"
       ]
     },
-    "System.Security.Permissions/5.0.0-preview.2.20160.6": {
-      "sha512": "Esi5GwDAz1PQ1I33Z5AjuCsEQptBoYkA22Av7I/4mf5gsdiId6oMBB1+HQzVFdi+97sHNbTHG5ad3vHuwD5oag==",
+    "System.Security.Permissions/5.0.0-preview.3.20214.6": {
+      "sha512": "/Qr7J4lkCHP/YC9Hq2IeSbN314mx1YYS3xgs2I9i1g9GbfnJkETv+1WFB+bmM7/suv/90ZwPg4b1izXLW8Bwsg==",
       "type": "package",
-      "path": "system.security.permissions/5.0.0-preview.2.20160.6",
+      "path": "system.security.permissions/5.0.0-preview.3.20214.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8013,16 +8013,16 @@
         "ref/netcoreapp3.0/System.Security.Permissions.xml",
         "ref/netstandard2.0/System.Security.Permissions.dll",
         "ref/netstandard2.0/System.Security.Permissions.xml",
-        "system.security.permissions.5.0.0-preview.2.20160.6.nupkg.sha512",
+        "system.security.permissions.5.0.0-preview.3.20214.6.nupkg.sha512",
         "system.security.permissions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
-    "System.Security.Principal.Windows/5.0.0-preview.2.20160.6": {
-      "sha512": "tEyU4kUWUVxziY2UNtb4ZqS/T+/Cnij2IIl610mNh44U06RDHVoQFf3Uzmn7/cHfJ5Hq6sqogjigr054HGgT1w==",
+    "System.Security.Principal.Windows/5.0.0-preview.3.20214.6": {
+      "sha512": "4S81ui+PKNlCl/TnuXi5bIRGqC3hqZIyjjHIttfrgNdS2/yN4pdpJi2LJ5GNBMyg9u39WL1FEK5NxdyMlXMuiQ==",
       "type": "package",
-      "path": "system.security.principal.windows/5.0.0-preview.2.20160.6",
+      "path": "system.security.principal.windows/5.0.0-preview.3.20214.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8068,7 +8068,7 @@
         "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
         "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
         "runtimes/win/lib/uap10.0.16299/_._",
-        "system.security.principal.windows.5.0.0-preview.2.20160.6.nupkg.sha512",
+        "system.security.principal.windows.5.0.0-preview.3.20214.6.nupkg.sha512",
         "system.security.principal.windows.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -8639,10 +8639,10 @@
         "system.threading.timer.nuspec"
       ]
     },
-    "System.Windows.Extensions/5.0.0-preview.2.20160.6": {
-      "sha512": "AVVX14k0oqYtrsWvqjexurDYJBdkuHna4v0hPHV6A+t4+5YvVRgp/Ci0aaoiZIWq8EdlTp/KsUvkVtdTNHDN1A==",
+    "System.Windows.Extensions/5.0.0-preview.3.20214.6": {
+      "sha512": "f5O7bXgZfFKZLxM32TQtt8Zt+4A/O52Lowglx6iFchuxSPllUdB3jK8GOz6/bjEnBKdrQsjGY0uIKEZJfsquDg==",
       "type": "package",
-      "path": "system.windows.extensions/5.0.0-preview.2.20160.6",
+      "path": "system.windows.extensions/5.0.0-preview.3.20214.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8655,7 +8655,7 @@
         "ref/netcoreapp3.0/System.Windows.Extensions.xml",
         "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll",
         "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.xml",
-        "system.windows.extensions.5.0.0-preview.2.20160.6.nupkg.sha512",
+        "system.windows.extensions.5.0.0-preview.3.20214.6.nupkg.sha512",
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -8916,11 +8916,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0-preview.2.20159.4",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0-preview.3.20181.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.1",
-      "System.Configuration.ConfigurationManager >= 5.0.0-preview.2.20160.6"
+      "System.Configuration.ConfigurationManager >= 5.0.0-preview.3.20214.6"
     ]
   },
   "packageFolders": {
@@ -8962,7 +8962,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[5.0.0-preview.2.20159.4, )"
+            "version": "[5.0.0-preview.3.20181.2, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
@@ -8980,7 +8980,7 @@
           },
           "System.Configuration.ConfigurationManager": {
             "target": "Package",
-            "version": "[5.0.0-preview.2.20160.6, )"
+            "version": "[5.0.0-preview.3.20214.6, )"
           }
         },
         "imports": [

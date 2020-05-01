@@ -10,7 +10,7 @@
     <h3>Add Collection</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addCollection()">
         <input type="text" id="add-name" placeholder="New Collection">
-        <input type="text" id="add-info" placeholder="New Collection Info">
+        <input type="text" id="add-info" placeholder="New Info">
         <input type="submit" value="Add">
     </form>
 
@@ -29,15 +29,16 @@
 
     <table>
         <tr>
-            <th>Collection`s Name</th>
+            <th>Name</th>
             <th>Info</th>
         </tr>
         <tbody id="collections"></tbody>
     </table>
 
-    <script src="js/DatabaseCosmetics.js" asp-append-version="true"></script>
+    <script src="js/DBCosmetics.js" asp-append-version="true"></script>
     <script type="text/javascript">
         getCollections();
     </script>
 </body>
 </html>
+

@@ -40,7 +40,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0-preview.2.20159.4, )"
+              "version": "[5.0.0-preview.3.20181.2, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -58,7 +58,7 @@
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
-              "version": "[5.0.0-preview.2.20160.6, )"
+              "version": "[5.0.0-preview.3.20214.6, )"
             }
           },
           "imports": [
