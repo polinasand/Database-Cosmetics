@@ -39,6 +39,7 @@ namespace DatabaseCosmetics
             {
                 endpoints.MapControllers();
             });
+            
         }
     }
 

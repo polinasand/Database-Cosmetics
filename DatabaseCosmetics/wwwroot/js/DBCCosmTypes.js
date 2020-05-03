@@ -1,18 +1,18 @@
-﻿const uri = 'api/Collections';
-let collections = [];
+﻿const uri = 'api/CosmTypes';
+let cosmTypes = [];
 
-function getCollections() {
+function getCosmTypes() {
     fetch(uri)
         .then(response => response.json())
-        .then(data => _displayCollections(data))
-        .catch(error => console.error('Unable to get collections.', error));
+        .then(data => _displayCosmTypes(data))
+        .catch(error => console.error('Unable to get types.', error));
 }
 
-function addCollection() {
+function addCosmtype() {
     const addNameTextbox = document.getElementById('add-name');
     const addInfoTextbox = document.getElementById('add-info');
 
-    const collection = {
+    const cosmtype = {
         name: addNameTextbox.value.trim(),
         info: addInfoTextbox.value.trim(),
     };
@@ -23,52 +23,52 @@ function addCollection() {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(collection)
+        body: JSON.stringify(cosmtype)
     })
         .then(response => response.json())
         .then(() => {
-            getCollections();
+            getCosmTypes();
             addNameTextbox.value = '';
             addInfoTextbox.value = '';
         })
-        .catch(error => console.error('Unable to add collection.', error));
+        .catch(error => console.error('Unable to add type.', error));
 }
 
-function deleteCollection(id) {
+function deleteCosmType(id) {
     fetch(`${uri}/${id}`, {
         method: 'DELETE'
     })
-        .then(() => getCollections())
-        .catch(error => console.error('Unable to delete collection.', error));
+        .then(() => getCosmTypes())
+        .catch(error => console.error('Unable to delete type.', error));
 }
 
 function displayEditForm(id) {
-    const collection = collections.find(collection => collection.id === id);
+    const cosmtype = cosmTypes.find(cosmtype => cosmtype.id === id);
 
-    document.getElementById('edit-id').value = collection.id;
-    document.getElementById('edit-name').value = collection.name;
-    document.getElementById('edit-info').value = collection.info;
+    document.getElementById('edit-id').value = cosmtype.id;
+    document.getElementById('edit-name').value = cosmtype.name;
+    document.getElementById('edit-info').value = cosmtype.info;
     document.getElementById('editForm').style.display = 'block';
 }
 
-function updateCollection() {
-    const collectionId = document.getElementById('edit-id').value;
-    const collection = {
-        id: parseInt(collectionId, 10),
+function updateCosmType() {
+    const cosmtypeId = document.getElementById('edit-id').value;
+    const cosmtype = {
+        id: parseInt(cosmtypeId, 10),
         name: document.getElementById('edit-name').value.trim(),
         info: document.getElementById('edit-info').value.trim()
     };
 
-    fetch(`${uri}/${collectionId}`, {
+    fetch(`${uri}/${cosmtypeId}`, {
         method: 'PUT',
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(collection)
+        body: JSON.stringify(cosmtype)
     })
-        .then(() => getCollections())
-        .catch(error => console.error('Unable to update collection.', error));
+        .then(() => getCosmTypes())
+        .catch(error => console.error('Unable to update cosmtype.', error));
 
     closeInput();
 
@@ -80,31 +80,35 @@ function closeInput() {
 }
 
 
-function _displayCollections(data) {
-    const tBody = document.getElementById('collections');
+function _displayCosmTypes(data) {
+    const tBody = document.getElementById('cosmTypes');
     tBody.innerHTML = '';
 
 
     const button = document.createElement('button');
-
-    data.forEach(collection => {
+    button.style.color= '#fff';
+    button.style.backgroundColor = '#070707';
+    button.style.borderColor = '#010000';
+    button.style.fontFamily = "Nunito Sans"
+    data.forEach(cosmtype => {
         let editButton = button.cloneNode(false);
+       
         editButton.innerText = 'Edit';
-        editButton.setAttribute('onclick', `displayEditForm(${collection.id})`);
+        editButton.setAttribute('onclick', `displayEditForm(${cosmtype.id})`);
 
         let deleteButton = button.cloneNode(false);
         deleteButton.innerText = 'Delete';
-        deleteButton.setAttribute('onclick', `deleteCollection(${collection.id})`);
+        deleteButton.setAttribute('onclick', `deletecosmtype(${cosmtype.id})`);
 
         let tr = tBody.insertRow();
 
 
         let td1 = tr.insertCell(0);
-        let textNode = document.createTextNode(collection.name);
+        let textNode = document.createTextNode(cosmtype.name);
         td1.appendChild(textNode);
 
         let td2 = tr.insertCell(1);
-        let textNodeInfo = document.createTextNode(collection.info);
+        let textNodeInfo = document.createTextNode(cosmtype.info);
         td2.appendChild(textNodeInfo);
 
         let td3 = tr.insertCell(2);
@@ -114,5 +118,5 @@ function _displayCollections(data) {
         td4.appendChild(deleteButton);
     });
 
-    collections = data;
+    cosmTypes = data;
 }
