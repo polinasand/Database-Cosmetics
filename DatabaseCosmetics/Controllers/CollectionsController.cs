@@ -53,7 +53,9 @@ namespace DatabaseCosmetics.Controllers
             }
 
             _context.Entry(collection).State = EntityState.Modified;
-
+            //int? newId = _context.Collections.Where(c => c.Name == collection.Name).FirstOrDefault().Id;
+            //if (newId != null)
+            //    return NotFound();
             try
             {
                 await _context.SaveChangesAsync();
@@ -79,10 +81,12 @@ namespace DatabaseCosmetics.Controllers
         [HttpPost]
         public async Task<ActionResult<Collection>> PostCollection(Collection collection)
         {
-            _context.Collections.Add(collection);
-            await _context.SaveChangesAsync();
+                _context.Collections.Add(collection);
+                await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetCollection", new { id = collection.Id }, collection);
+                return CreatedAtAction("GetCollection", new { id = collection.Id }, collection);
+            
+     
         }
 
         // DELETE: api/Collections/5

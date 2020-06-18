@@ -166,6 +166,13 @@ G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.
 G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
 G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
 G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\DatabaseCosmetics.Views.dll
+G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
+G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\xunit.assert.dll
+G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\xunit.core.dll
+G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
+G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\obj\Debug\netcoreapp3.1\DatabaseCosmetics.MvcApplicationPartsAssemblyInfo.cs
 G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\obj\Debug\netcoreapp3.1\DatabaseCosmetics.MvcApplicationPartsAssemblyInfo.cache
-G:\Programming\2\istp\DatabaseCosmetics\DatabaseCosmetics\bin\Debug\netcoreapp3.1\DatabaseCosmetics.Views.dll
